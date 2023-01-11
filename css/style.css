@@ -160,10 +160,14 @@ nav ul li .msg-f:hover{
     .top{
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
     }
     .top img{
         height: 100px;
         width: 100;
+    }
+    .intro{
+        align-items: center;
     }
 }
 .content{
@@ -214,14 +218,15 @@ nav ul li .msg-f:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+    justify-content: center;
 }
 .map .m-card{
-    width: 25em;
+    width: 16em;
     margin: 10px;
     background-color: #786363;
     color: #fff;
     flex-direction: column;
+    font-size: 16px;
 }
 .m-card h2{
     margin-bottom: 10px;
@@ -285,4 +290,7 @@ nav ul li .msg-f:hover{
 }
 .msgg form button i{
     margin-right: 5px;
+}
+
+@media (max-width:460px){
 }
