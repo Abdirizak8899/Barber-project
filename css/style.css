@@ -47,6 +47,7 @@ header{
 }
 .brand{
     /* padding-left: 40px; */
+    color: #786363;
 }
 
 nav{
@@ -76,7 +77,7 @@ nav ul li a i{
     margin-right: 7px;
 }
 
-nav ul li .msg-f{
+nav ul li .msg-f,.btn{
     padding: 10px;
     background-color: var(--secondary-color);
     border-radius: 7px;
@@ -86,7 +87,12 @@ nav ul li .msg-f:hover{
     background-color: var(--secondary-color);
     color: #fff;
 }
-
+.btn {
+    text-decoration: none;
+}
+.btn i{
+    margin-right: 4px;
+}
 @media (max-width:800px){
     .toggle{
         display: block;
@@ -123,6 +129,7 @@ nav ul li .msg-f:hover{
 .top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .intro{
     display: flex;
