@@ -120,11 +120,12 @@ nav ul li .msg-f:hover{
     }
 }
 
-.home,.services{
+.home,.services,.contact{
     display: flex;
     align-items: center;
     height: 100vh;
     padding-top: 200px;
+    margin-bottom: 100px;
 }
 .top{
     display: flex;
@@ -175,9 +176,11 @@ nav ul li .msg-f:hover{
 }
 .content p{
     color: #B08C8C;
+    margin: 5px;
 }
 .content h2{
     color: #786363;
+    margin: 5px;
 }
 .content i{
     color: #ffff;
@@ -195,14 +198,42 @@ nav ul li .msg-f:hover{
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.s-services .card{
+.s-services .card,.map .m-card{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 18em;
     padding: 16px;
     margin-right: 25px;
     border-radius: 7px;
-    margin-bottom: 25px;
+    margin: 25px;
 }
 .s-services .card i{
     margin-bottom: 10px;
+}
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.map .m-card{
+    width: 30em;
+    margin: 10px;
+    background-color: #786363;
+    color: #fff;
+    flex-direction: column;
+}
+.m-card h2{
+    margin-bottom: 10px;
+}
+.m-card p{
+    margin: 15px;
+}
+@media(max-width:800px){
+    .map{
+        flex-direction: column-reverse;
+    }
+    .map .card{
+        width: 5em;
+    }
 }
