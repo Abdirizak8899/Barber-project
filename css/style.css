@@ -217,7 +217,7 @@ nav ul li .msg-f:hover{
     
 }
 .map .m-card{
-    width: 20em;
+    width: 25em;
     margin: 10px;
     background-color: #786363;
     color: #fff;
@@ -236,4 +236,52 @@ nav ul li .msg-f:hover{
     .map .card{
         width: 5em;
     }
+}
+
+.msgg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #786363; */
+}
+.msgg h2{
+    color: #786363;
+    margin-bottom: 10px;
+}
+.msgg p{
+    color: #B08C8C;
+    margin-bottom: 10px;
+}
+.msgg form{
+    display: flex;
+    flex-direction: column;
+    background-color: #786363;
+    border-radius: 10px;
+    padding: 16px;
+    width: 35em;
+    align-items: center;
+    justify-content: center;
+}
+.msgg form input,.msgg form textarea{
+    border: 2px solid #B08C8C;
+    border-radius: 7px;
+    padding: 16px;
+    width: 26em;
+    outline: none;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.msgg form button{
+    outline: none;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    background-color: #B08C8C;
+    border-radius: 10px;
+    width: 10em;
+}
+.msgg form button i{
+    margin-right: 5px;
 }
