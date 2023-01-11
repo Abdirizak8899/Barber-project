@@ -173,3 +173,34 @@ nav ul li .msg-f:hover{
     width: 100%;
     flex-direction: column;
 }
+.content p{
+    color: #B08C8C;
+}
+.content h2{
+    color: #786363;
+}
+.content i{
+    color: #ffff;
+}
+.s-services{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.content .icon{
+    padding: 7px;
+    background-color: #786363;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.s-services .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 18em;
+    padding: 16px;
+    margin-right: 25px;
+}
+.s-services .card i{
+    margin-bottom: 10px;
+}
