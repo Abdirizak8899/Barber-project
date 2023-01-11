@@ -200,6 +200,8 @@ nav ul li .msg-f:hover{
     width: 18em;
     padding: 16px;
     margin-right: 25px;
+    border-radius: 7px;
+    margin-bottom: 25px;
 }
 .s-services .card i{
     margin-bottom: 10px;
